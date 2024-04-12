@@ -1,7 +1,13 @@
+import SectionCards from "./layouts/SectionCards";
+import SectionForms from "./layouts/SectionForms";
+
 function App() {
   return (
     <>
-      <h1></h1>
+      <main className="flex flex-col sm:flex-row justify-between items-center h-screen w-screen">
+        <SectionCards />
+        <SectionForms />
+      </main>
     </>
   );
 }
