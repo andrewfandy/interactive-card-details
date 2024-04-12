@@ -3,6 +3,12 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "main-desktop": "url('./assets/images/bg-main-desktop.png')",
+        "main-mobile": "url('./assets/images/bg-main-mobile.png')",
+        "card-front": "url('./assets/images/bg-card-front.png')",
+        "card-back": "url('./assets/images/bg-card-back.png",
+      },
       fontFamily: {
         base: ["Space Grotesk", "sans-serif"],
       },
